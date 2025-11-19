@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Attia508/Deploying_3_Tier_Web_App_Using_Docker_Compose_And_Jenkins_Pipeline/blob/main/Jenkinsfile'
+                git branch: 'main', url: 'https://github.com/Attia508/Deploying_3_Tier_Web_App_Using_Docker_Compose_And_Jenkins_Pipeline.git'
             }
         }
 
